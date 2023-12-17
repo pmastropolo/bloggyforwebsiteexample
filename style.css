@@ -1,0 +1,222 @@
+/* Basic Reset */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body Style */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f8f8f8;
+    }
+    
+    .boooorder {
+        border-bottom: 2px solid #2c3e50;
+    }
+    
+    /* Header Style */
+    header {
+        background: #2c3e50;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    /* Header Title */
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    /* Navigation Style */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    
+    /* Main Content Style */
+    main {
+        width: 70%;
+        float: left;
+        padding: 2rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Sidebar Style */
+    aside {
+        width: 27%;
+        float: right;
+        padding: 2rem;
+        background: #f4f4f4;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    }
+    
+/* Footer Styles */
+footer {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        clear: both;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        text-align: left;
+    }
+    
+    .footer-content h3, .footer-content ul, .footer-content p {
+        flex: 1;
+        margin: 10px;
+    }
+    
+    .footer-content h3 {
+        font-size: 1.2em;
+        color: #f1c40f;
+    }
+    
+    .footer-content ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-content ul li {
+        margin-bottom: 5px;
+    }
+    
+    .footer-content ul li a {
+        color: #f1c40f;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .footer-content ul li a:hover {
+        color: #e67e22;
+    }
+    
+    footer p {
+        border-top: 1px solid #f1c40f;
+        padding-top: 10px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    /* Blog Post Styles */
+    .blog-post {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .blog-post .section {
+        margin-bottom: 30px;
+    }
+    
+    .blog-post .title {
+        font-size: 1.8em;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    
+    .blog-post .content {
+        font-size: 1em;
+        color: #333;
+        text-align: justify;
+        line-height: 1.8;
+    }
+    
+    .blog-post .post-date {
+        font-style: italic;
+        color: #888;
+        margin-bottom: 15px;
+    }
+    
+    /* Main Section h2, p, h3 Styles */
+    main h2, main h3 {
+        color: #34495e;
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    main p {
+        margin-bottom: 20px;
+        line-height: 1.8;
+    }
+    
+    /* Sidebar (aside) Styles */
+    aside h3 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    aside p {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .blog-post .post-meta {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 15px;
+    }
+    
+    .blog-post .post-meta .author, 
+    .blog-post .post-meta .date,
+    .blog-post .post-meta .reading-time {
+        font-style: italic;
+    }
+
+    aside p {
+        font-size: 18px; /* Adjust the font size as needed */
+    }
+
+    .external-link {
+        color: #2c3e50;
+        text-decoration: underline;
+    }
+    
+    .external-link:hover {
+        color: #34495e;
+    }
+    
+    /* Responsive Design Media Query */
+    @media screen and (max-width: 768px) {
+        main, aside {
+            width: 100%;
+            float: none;
+            padding: 1rem;
+        }
+    
+        nav ul li {
+            display: block;
+            margin: 10px 0;
+        }
+    }
